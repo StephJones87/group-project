@@ -10,11 +10,11 @@ body {
 div.img-container {
   background-position: center;
   background-repeat: no-repeat;
-  length: 2000px
+  width: 100%
 }
 
 div.inner-container {
-  text-align: center;
+  text-align: right;
   position: absolute;
   width: auto;
   color: black;
@@ -25,12 +25,13 @@ div.inner-container {
 h1 {
   font-size: 7em;
   font-family: "Shadows into Light", sans-serif;
+  text-align: center;
 }
 
 a {
   margin-top: 20px;
   font-size: 1.3em;
-  font-family: "Source Sans Pro", sans sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a#btn {
