@@ -10,3 +10,8 @@ body {
   width:640px;
   height:360px;
 }
+
+#leftfont {
+font-family: 'Sofia'!important;font-size: 22px !important;
+
+}
