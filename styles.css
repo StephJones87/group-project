@@ -11,7 +11,8 @@ body {
   height:360px;
 }
 
-#leftfont {
-font-family: 'Sofia'!important;font-size: 22px !important;
+.navbar-brand {
+font-family: 'Sofia';
+font-size: 22px;
 
 }
