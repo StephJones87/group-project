@@ -1,5 +1,6 @@
 body {
   padding-top: 5rem;
+  font-family: "Bodoni MT"
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -10,8 +11,33 @@ body {
   width:640px;
   height:360px;
 }
-
-#leftfont {
+.navbar-brand {
 font-family: 'Sofia'!important;font-size: 22px !important;
 
+}
+.nav-item {
+  font-family: 'Sofia'!important;font-size: 22px !important;
+}
+
+.regular {
+	/* Montserrat Regular = 400 */
+	font-weight: 400;
+	font-family: 'Montserrat', "Open Sans", Helvetica, Arial, sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  font-size: 75px;
+}
+h2, h3, h4 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p {
+  font-size: 35px;
 }
