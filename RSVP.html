@@ -6,29 +6,31 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>RSVP</title>
 
     <!-- ADD BOOTSTRAP CORE HERE!!!! -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="stylesrsvp.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
   </head>
 
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Trump and Kim's Wedding</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link" href="RSVP.html">RSVP</a>
           </li>
           <li class="nav-item">
@@ -41,45 +43,28 @@
       </div>
     </nav>
 
-    <main role="main" class="container">
+<div class="middle">
+  <!-- <div>
+    <img src="https://media.giphy.com/media/2cmCUDzzxscnK/giphy.gif" alt="clap" width="200" height="200";
+    </div> -->
+<!-- <form> -->
+  <div class="form">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+    <div class ="info">
+    <h1>RSVP</h1>
+    <h2>for the wedding of</h2>
+    <h1>Donald and Kim-Jong</h1>
+      <p class= "line">________________________________________</p>
+    <input type="text" placeholder="Name">
+    <input type="number" placeholder="# of Guests">
+    <input type="text" placeholder="Dietary requirements"
+    </div>
+    <button class ="accept">Accept</button>
+    <button class ="regret">Regret</button>
+  </div>
+<!-- </form> -->
 
-      </main><!-- /.container -->
-
-    <form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
