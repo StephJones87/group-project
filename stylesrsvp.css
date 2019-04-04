@@ -1,22 +1,29 @@
 body {
-  padding-top: 5rem;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: 15%;
+  margin-left: 0%;
+  padding: 0;
+  background-color: #FFE4E1;
+  font-family: 'Bodoni MT';
+}
+
+.img {
+  vertical-align: middle;
+  margin:auto;
 }
 
 .navbar-brand {
   font-family: 'Sofia'!important;font-size: 22px !important;
 }
 
-html, form {
-height: 100%;
-width: 100%;
-margin: 0;
-padding: 0;
-background-color: #BDC3C7;
-font-family: 'Bodoni MT';
+.nav-item {
+  font-family: 'Sofia'!important;font-size: 22px !important;
 }
 
 .top {
-  background-color: #264356;
+  background-color: #4682B4;
   height: 200px;
   margin:0;
   padding:0;
@@ -24,6 +31,7 @@ font-family: 'Bodoni MT';
 }
 
 .form {
+  /* align-items: center; */
   height: 590px;
   width: 400px;
   background-color: #fff;
