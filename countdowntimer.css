@@ -1,0 +1,76 @@
+body {
+  padding-top: 5rem;
+  font-family: "Bodoni MT"
+
+}
+
+body {
+
+  background-image: url("https://media.npr.org/assets/img/2018/06/15/gettyimages-971757646-5ade6d3ca8b8fba47f2bbeec75d06927174d9f43-s800-c85.jpg");
+ background-repeat: no-repeat, repeat;
+background-size: cover;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+
+.navbar-brand {
+font-family: 'Sofia';
+font-size: 22px;
+
+}
+
+.nav-item {
+ font-family: 'Sofia'!important;font-size: 22px !important;
+}
+
+
+.h1 {
+font-family: 'Sofia';
+color: white;
+
+}
+
+.p {
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+    padding: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Sofia';
+}
+
+li {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: bold
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: inline;
+  font-size: 4.5rem;
+}
