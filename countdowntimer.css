@@ -61,7 +61,7 @@ h2 {
   font-family: 'Sofia';
 }
 
-li {
+li.a {
   display: inline;
   font-size: 1.5em;
   font-weight: bold
@@ -74,3 +74,14 @@ li span {
   display: inline;
   font-size: 4.5rem;
 }
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #333232;
+  text-align: center;
+  }
