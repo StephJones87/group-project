@@ -5,13 +5,10 @@ body {
   margin-top: 15%;
   margin-left: 0%;
   padding: 0;
-  background-color: #FFE4E1;
+  background-image: url("https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2018/06/12/BostonGlobe.com/Politics/Images/53f019ceba5845faaecd26d34f2237a5-53f019ceba5845faaecd26d34f2237a5-0[1].jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
   font-family: 'Bodoni MT';
-}
-
-.img {
-  vertical-align: middle;
-  margin:auto;
 }
 
 .navbar-brand {
@@ -31,7 +28,7 @@ body {
 }
 
 .form {
-  /* align-items: center; */
+  align-items: center;
   height: 590px;
   width: 400px;
   background-color: #fff;
