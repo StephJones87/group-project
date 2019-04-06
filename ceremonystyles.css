@@ -1,7 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   padding-top: 5rem;
   font-family: "Bodoni MT"
+  height: 100%;
+  width: 100%;
 }
+
 body {
   background-image: url(https://img.freepik.com/free-photo/white-concrete-wall-background_1249-263.jpg?size=338&ext=jpg);
 }
@@ -12,7 +20,7 @@ body {
 }
 
 .carousel {
-  width:640px;
+  width:400px;
   height:360px;
 }
 .navbar-brand {
