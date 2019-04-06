@@ -1,18 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   padding-top: 5rem;
   font-family: "Bodoni MT"
+  height: 100%;
+  width: 100%;
 }
+
 body {
   background-image: url(https://img.freepik.com/free-photo/white-concrete-wall-background_1249-263.jpg?size=338&ext=jpg);
 }
 
-.starter-template {
-  padding: 3rem 1.5rem;
+.container {
+  padding: .2rem .5rem;
   text-align: center;
 }
 
 .carousel {
-  width:640px;
+  width:400px;
   height:360px;
 }
 .navbar-brand {
@@ -34,10 +42,21 @@ h1 {
 }
 h2, h3, h4 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 p {
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Sofia'
 }
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #333232;
+  text-align: center;
+  color: #ffffff
+  }
