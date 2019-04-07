@@ -33,6 +33,7 @@ body {
 }
 
 .form {
+  position: relative;
   align-items: center;
   height: 590px;
   width: 400px;
