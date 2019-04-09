@@ -39,8 +39,10 @@ font-family: 'Sofia'!important;font-size: 22px !important;
   width: 50%;
 }
 h1 {
+  text-align: center;
   font-size: 75px;
   font-family: 'Sofia'
+
 }
 h2, h3, h4 {
   font-weight: bold;
@@ -48,6 +50,7 @@ h2, h3, h4 {
 }
 
 p {
+  text-align: center;
   font-size: 30px;
   font-family: 'Sofia'
 }
