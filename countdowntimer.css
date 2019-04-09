@@ -81,16 +81,3 @@ li span {
   display: inline;
   font-size: 4.5rem;
 }
-
-
-.footer {
-  width: 100%;
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #333232;
-  text-align: center;
-  color: #ffffff
-  }
