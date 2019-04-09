@@ -116,6 +116,7 @@ button:focus {
 }
 
 .footer {
+  font-family: 'Bodoni MT';
   width: 100%;
   position: fixed;
   right: 0;
